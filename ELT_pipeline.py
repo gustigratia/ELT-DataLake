@@ -31,7 +31,7 @@ if __name__ == "__main__":
     total_time = 0
     peak_list = []
 
-    for script in ["medallion_architecture/bronze.py", "medallion_architecture/silver.py", "medallion_architecture/gold.py"]:
+    for script in ["ELT/bronze.py", "ELT/silver.py", "ELT/gold.py"]:
         duration, peak = run_and_monitor(script)
         total_time += duration
         peak_list.append(peak)

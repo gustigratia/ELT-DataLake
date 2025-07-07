@@ -7,8 +7,8 @@ import os
 
 client = Minio(
     "localhost:9000",
-    access_key="gusti",
-    secret_key="delpiera06",
+    access_key="minioadmin",
+    secret_key="minioadmin",
     secure=False
 )
 tables = {'mata_kuliah', 'dosen', 'mahasiswa', 'kelas', 'frs', 'frs_kelas'}

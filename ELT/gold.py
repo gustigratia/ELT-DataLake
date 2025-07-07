@@ -27,8 +27,8 @@ def get_quarter(month):
 
 client = Minio(
     "localhost:9000",
-    access_key="gusti",
-    secret_key="delpiera06",
+    access_key="minioadmin",
+    secret_key="minioadmin",
     secure=False
 )
 

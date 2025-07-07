@@ -4,12 +4,12 @@ from minio import Minio
 from minio.error import S3Error
 from io import BytesIO
 
-engine = create_engine("mysql+pymysql://root:@localhost:3308/dummy_data")
+engine = create_engine("mysql+pymysql://root:@localhost:3306/source_data")
 
 minio_config = {
     'endpoint': 'localhost:9000',
-    'access_key': 'gusti',
-    'secret_key': 'delpiera06',
+    'access_key': 'minioadmin',
+    'secret_key': 'minioadmin',
     'bucket': 'bronze',
     'secure': False
 }
